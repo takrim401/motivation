@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My JavaScript Program</title>
+  </head>
+  <body>
+    <p id="quote"></p>
+    <script src="script.js"></script>
+    <script>
+    const quotes = [
+      "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+  "The only way to do great work is to love what you do.",
+  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+  "Positive anything is better than negative nothing.",
+  "The only limit to our realization of tomorrow will be our doubts of today.",
+  "The best way to predict the future is to create it.",
+  "Start where you are, use what you have, do what you can.",
+  "The biggest adventure you can ever take is to live the life of your dreams.",
+  "You miss 100% of the shots you don’t take.",
+  "Act as if what you do makes a difference. It does.",
+  "Successful people do what unsuccessful people are not willing to do. Don’t wish it were easier, wish you were better.",
+  "The only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.",
+  "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+  "The best revenge is massive success.",
+  "Don’t wait for opportunities, create them.",
+  "Don’t watch the clock; do what it does. Keep going.",
+  "The best time to plant a tree was 20 years ago. The second best time is now.",
+  "The two most important days in your life are the day you are born and the day you find out why.",
+  "The only thing to fear is fear itself.",
+  "It does not matter how slowly you go as long as you do not stop.",
+  "The only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.",
+  "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.",
+  "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+  "The best way to predict the future is to create it.",
+  "It does not matter how strong your opinions are. If you don’t use your power for positive change, it’s not power.",
+  "The best way to predict the future is to create it.",
+  "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.",
+  "The best way to predict the future is to create it.",
+  "The only limit to our realization of tomorrow will be our doubts of today.",
+  "The best way to predict the future is to create it.",
+  "The only limit to our realization of tomorrow will be our doubts of today."
+    ];
+
+    const quote = quotes[Math.floor(Math.random() * quotes.length)];
+    document.getElementById("quote").innerHTML = quote;
+    </script>
+  </body>
+</html>
